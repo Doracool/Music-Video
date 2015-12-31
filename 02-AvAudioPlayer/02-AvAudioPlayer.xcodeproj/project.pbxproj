@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC2F56451C3410A30073DE8C /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F563C1C3410A30073DE8C /* AppIcon29x29.png */; };
+		CC2F56461C3410A30073DE8C /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F563D1C3410A30073DE8C /* AppIcon29x29@2x.png */; };
+		CC2F56471C3410A30073DE8C /* AppIcon29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F563E1C3410A30073DE8C /* AppIcon29x29@3x.png */; };
+		CC2F56481C3410A30073DE8C /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F563F1C3410A30073DE8C /* AppIcon40x40@2x.png */; };
+		CC2F56491C3410A30073DE8C /* AppIcon40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F56401C3410A30073DE8C /* AppIcon40x40@3x.png */; };
+		CC2F564A1C3410A30073DE8C /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F56411C3410A30073DE8C /* AppIcon57x57.png */; };
+		CC2F564B1C3410A30073DE8C /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F56421C3410A30073DE8C /* AppIcon57x57@2x.png */; };
+		CC2F564C1C3410A30073DE8C /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F56431C3410A30073DE8C /* AppIcon60x60@2x.png */; };
+		CC2F564D1C3410A30073DE8C /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC2F56441C3410A30073DE8C /* AppIcon60x60@3x.png */; };
 		CCED5AB91C33FD3A00FE8AB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCED5AB81C33FD3A00FE8AB2 /* main.m */; };
 		CCED5ABC1C33FD3A00FE8AB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCED5ABB1C33FD3A00FE8AB2 /* AppDelegate.m */; };
 		CCED5ABF1C33FD3A00FE8AB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCED5ABE1C33FD3A00FE8AB2 /* ViewController.m */; };
@@ -48,6 +57,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC2F563C1C3410A30073DE8C /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		CC2F563D1C3410A30073DE8C /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		CC2F563E1C3410A30073DE8C /* AppIcon29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@3x.png"; sourceTree = "<group>"; };
+		CC2F563F1C3410A30073DE8C /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		CC2F56401C3410A30073DE8C /* AppIcon40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@3x.png"; sourceTree = "<group>"; };
+		CC2F56411C3410A30073DE8C /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		CC2F56421C3410A30073DE8C /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		CC2F56431C3410A30073DE8C /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		CC2F56441C3410A30073DE8C /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
 		CCED5AB41C33FD3A00FE8AB2 /* 02-AvAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-AvAudioPlayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCED5AB81C33FD3A00FE8AB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCED5ABA1C33FD3A00FE8AB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -173,6 +191,15 @@
 		CCED5AEA1C33FDD500FE8AB2 /* 未命名文件夹 */ = {
 			isa = PBXGroup;
 			children = (
+				CC2F563C1C3410A30073DE8C /* AppIcon29x29.png */,
+				CC2F563D1C3410A30073DE8C /* AppIcon29x29@2x.png */,
+				CC2F563E1C3410A30073DE8C /* AppIcon29x29@3x.png */,
+				CC2F563F1C3410A30073DE8C /* AppIcon40x40@2x.png */,
+				CC2F56401C3410A30073DE8C /* AppIcon40x40@3x.png */,
+				CC2F56411C3410A30073DE8C /* AppIcon57x57.png */,
+				CC2F56421C3410A30073DE8C /* AppIcon57x57@2x.png */,
+				CC2F56431C3410A30073DE8C /* AppIcon60x60@2x.png */,
+				CC2F56441C3410A30073DE8C /* AppIcon60x60@3x.png */,
 				CCED5AEB1C33FDD500FE8AB2 /* chongzhi.png */,
 				CCED5AEC1C33FDD500FE8AB2 /* jindu.png */,
 				CCED5AED1C33FDD500FE8AB2 /* kuaijin.png */,
@@ -295,8 +322,14 @@
 			files = (
 				CCED5AC71C33FD3A00FE8AB2 /* LaunchScreen.storyboard in Resources */,
 				CCED5AFE1C33FDD500FE8AB2 /* zhendong.png in Resources */,
+				CC2F564B1C3410A30073DE8C /* AppIcon57x57@2x.png in Resources */,
+				CC2F56491C3410A30073DE8C /* AppIcon40x40@3x.png in Resources */,
 				CCED5AF91C33FDD500FE8AB2 /* play.png in Resources */,
+				CC2F56471C3410A30073DE8C /* AppIcon29x29@3x.png in Resources */,
 				CCED5AFB1C33FDD500FE8AB2 /* yinliang.png in Resources */,
+				CC2F56461C3410A30073DE8C /* AppIcon29x29@2x.png in Resources */,
+				CC2F564D1C3410A30073DE8C /* AppIcon60x60@3x.png in Resources */,
+				CC2F56481C3410A30073DE8C /* AppIcon40x40@2x.png in Resources */,
 				CCED5AFC1C33FDD500FE8AB2 /* yinyue.png in Resources */,
 				CCED5AF51C33FDD500FE8AB2 /* chongzhi.png in Resources */,
 				CCED5AFD1C33FDD500FE8AB2 /* zanting.png in Resources */,
@@ -306,8 +339,11 @@
 				CCED5AFA1C33FDD500FE8AB2 /* shengyinzhendong.png in Resources */,
 				CCED5AC21C33FD3A00FE8AB2 /* Main.storyboard in Resources */,
 				CCED5B021C3400D800FE8AB2 /* 时光十年.png in Resources */,
+				CC2F564A1C3410A30073DE8C /* AppIcon57x57.png in Resources */,
 				CCED5AF61C33FDD500FE8AB2 /* jindu.png in Resources */,
 				CCED5B001C3400B100FE8AB2 /* 张杰 - 时光十年.mp3 in Resources */,
+				CC2F56451C3410A30073DE8C /* AppIcon29x29.png in Resources */,
+				CC2F564C1C3410A30073DE8C /* AppIcon60x60@2x.png in Resources */,
 				CCED5AF71C33FDD500FE8AB2 /* kuaijin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +595,7 @@
 				CCED5AE31C33FD3B00FE8AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCED5AE41C33FD3B00FE8AB2 /* Build configuration list for PBXNativeTarget "02-AvAudioPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +604,7 @@
 				CCED5AE61C33FD3B00FE8AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCED5AE71C33FD3B00FE8AB2 /* Build configuration list for PBXNativeTarget "02-AvAudioPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +613,7 @@
 				CCED5AE91C33FD3B00FE8AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

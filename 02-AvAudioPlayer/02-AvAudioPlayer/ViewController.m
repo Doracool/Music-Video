@@ -22,9 +22,30 @@
 
 @implementation ViewController
 
+
+//设置后台播放
+-(void)setAudioSession{
+    //获取session对象
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    
+    //设置策略模式
+    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    
+    //启动会话
+    [session setActive:YES error:nil];
+}
+//设置锁屏信息
+-(void)clockScreenInfo{
+    //设置显示的图片
+    MPMediaItemArtwork *artWork = [[MPMediaItemArtwork alloc] initWithImage:[UIImage imageNamed:@"时光十年"]];
+    
+    NSTimeInterval duration = self.player.duration;
+    //获取锁屏时所需的对象 设置你需要显示的属性
+    [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo = @{MPMediaItemPropertyTitle:@"十年时光",MPMediaItemPropertyArtist:@"张杰",MPMediaItemPropertyArtwork:artWork,MPMediaItemPropertyPlaybackDuration:@(duration)};
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    [self setAudioSession];
     [self loadDataForView];
 }
 
@@ -48,6 +69,7 @@
     //调用硬件
     [_player prepareToPlay];
     
+    [self clockScreenInfo];
     return _player;
     
 }
@@ -116,6 +138,16 @@
     }
 }
 
+#pragma mark - 代理
+-(void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    NSLog(@"播放结束");
+}
+
+-(void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error
+{
+    NSLog(@"解码失败");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

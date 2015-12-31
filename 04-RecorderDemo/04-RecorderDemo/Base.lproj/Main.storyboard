@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Sj-fb-14W">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ztj-A3-OaR">
+            <objects>
+                <viewController id="0Sj-fb-14W" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Sa-cU-4kb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2lH-Tu-jIA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lrf-Nq-vHi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTO-99-wgH">
+                                <rect key="frame" x="60" y="221" width="64" height="64"/>
+                                <state key="normal" image="play.png"/>
+                                <connections>
+                                    <action selector="playAction:" destination="0Sj-fb-14W" eventType="touchUpInside" id="y1F-V5-37d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pqr-J5-YQh">
+                                <rect key="frame" x="220" y="114" width="64" height="64"/>
+                                <state key="normal" image="tingzhiluyin.png"/>
+                                <connections>
+                                    <action selector="stopRecorder:" destination="0Sj-fb-14W" eventType="touchUpInside" id="oa6-4G-S0l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id5-uW-Yb4">
+                                <rect key="frame" x="220" y="221" width="64" height="64"/>
+                                <state key="normal" image="tingzhi.png"/>
+                                <connections>
+                                    <action selector="stopPlayAction:" destination="0Sj-fb-14W" eventType="touchUpInside" id="lSQ-zo-Kgh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iM-pH-UHe">
+                                <rect key="frame" x="60" y="114" width="64" height="64"/>
+                                <state key="normal" image="luyin.png"/>
+                                <connections>
+                                    <action selector="recorderAction:" destination="0Sj-fb-14W" eventType="touchUpInside" id="nbE-2w-EXc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fR6-Oj-ruv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="367.5" y="49.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <button key="view" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P89-bD-rbK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349.5" y="687.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="luyin.png" width="64" height="64"/>
+        <image name="play.png" width="64" height="64"/>
+        <image name="tingzhi.png" width="64" height="64"/>
+        <image name="tingzhiluyin.png" width="64" height="64"/>
+    </resources>
+</document>
